@@ -1,0 +1,19 @@
+package com.rychorantung.if1_10118005_utsproject.ui.slideshow;
+
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+
+public class SlideshowViewModel extends ViewModel {
+
+    private MutableLiveData<String> mText;
+
+    public SlideshowViewModel() {
+        mText = new MutableLiveData<>();
+        mText.setValue("This is slideshow fragment");
+    }
+
+    public LiveData<String> getText() {
+        return mText;
+    }
+}

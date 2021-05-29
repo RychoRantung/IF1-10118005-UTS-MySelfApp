@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IF1-10118005-UTSProject</string>
+    <string name="slidePage1">Segala yang ingin anda ketahui tentang Rycho Rantung, ada di sini.</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_home2">HomeActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc_rico">Halo, Nama saya Rycho Rantung. Saya hanya manusia biasa yang berkuliah di UNIKOM</string>
+    <string name="hobi">Hobby: Menonton Film</string>
+    <string name="makes">Makes: Mie Ayam</string>
+    <string name="mikes">Mikes: Air Putih</string>
+    <string name="cita">Cita-Cita: Membahagiakan Orang Tua</string>
+    <string name="interest">Interest: Film dan Musik</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_daily">Daily Activity</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/whitebg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/opensans"
+                android:gravity="center"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="116dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="110dp"
+                android:layout_marginBottom="23dp"
+                android:src="@drawable/rico1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/josefinsans"
+                android:gravity="center"
+                android:text="@string/desc_rico"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="404dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/darkbg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/opensans"
+                android:gravity="center"
+                android:text="Social"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/instagram"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/whitebg"
+                android:drawableStart="@drawable/profile_ig1"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Instagram"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/callme"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/whitebg"
+                android:drawableStart="@drawable/profile_call1"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Phone"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/whitebg"
+                android:drawableStart="@drawable/profile_email1"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="E-mail"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/maps"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="235dp"
+                android:background="@drawable/whitebg"
+                android:drawableStart="@drawable/profile_location1"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Find Me"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="295dp"
+                android:background="@drawable/darkbg"
+                android:textColor="@color/white"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="About App"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

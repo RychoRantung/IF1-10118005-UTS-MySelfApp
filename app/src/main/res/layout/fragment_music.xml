@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.music.MusicFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/main_background">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="357dp"
+        android:layout_height="320dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/whitebg"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/opensans"
+            android:gravity="center"
+            android:text="Music Favorite"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/music_act"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"></androidx.recyclerview.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/darkbg"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/opensans"
+            android:gravity="center"
+            android:text="Video"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+            <VideoView
+            android:id="@+id/video_act"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
